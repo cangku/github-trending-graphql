@@ -1,0 +1,24 @@
+{
+  "name": "@unofficial/github-trending-graphql",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "now": "now alias $(now) trending.now.sh"
+  },
+  "keywords": [
+    "github",
+    "trending",
+    "graphQL"
+  ],
+  "author": "unofficial",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.4.5",
+    "cheerio": "^1.0.0-rc.2",
+    "graphql": "^14.1.1",
+    "memory-cache": "^0.2.0",
+    "node-fetch": "^2.3.0"
+  }
+}

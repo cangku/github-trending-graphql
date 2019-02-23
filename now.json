@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "alias": ["trending.now.sh"],
+    "builds": [{
+        "src": "src/server.js", "use": "@now/node-server"
+    }],
+    "routes": [{
+        "src": "/",
+        "dest": "/src/server.js"
+    }]
+}
